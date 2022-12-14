@@ -102,4 +102,3 @@ class Comment(models.Model):
         """ Метод для уменьшения рейтинга """
         self.rating -= 1
         self.save()
-
