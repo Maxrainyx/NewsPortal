@@ -2,6 +2,9 @@
 1. Создать двух пользователей (с помощью метода User.objects.create_user('username')):"""
 from News.models import *
 
+
+
+
 user1 = User.objects.create_user('Username1')
 user2 = User.objects.create_user('Username2')
 """
